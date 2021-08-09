@@ -1,5 +1,7 @@
 # Proget
 
+[![Downloads](https://pepy.tech/badge/proget/month)](https://pepy.tech/project/proget/month)
+
 ## A software downloader tool made for cli users
 
 #### NEW: Github repository downloading
