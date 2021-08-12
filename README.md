@@ -1,6 +1,6 @@
 # Proget
 
-[![Downloads](https://pepy.tech/badge/proget/month)](https://pepy.tech/project/proget/month)
+[![Downloads](https://pepy.tech/badge/proget/month)](https://pypi.org/project/proget)
 
 ## A software downloader tool made for cli users
 
