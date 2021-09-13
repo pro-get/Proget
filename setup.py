@@ -5,7 +5,7 @@ with open("README.md", "r") as file:
 
 setup(
 	name='Proget',
-	version='1.0',    
+	version='2.0',    
 	description='''A software installation tool''',
 	long_description=long_description,
 	long_description_content_type="text/markdown",
@@ -15,6 +15,7 @@ setup(
 	license='MIT License',
 	packages=['proget'],
 	requires=['pyyaml','urllib','requests','platform'],
+	install_requires=['pyyaml','urllib','requests','platform'],
 	classifiers =[
 	'Programming Language :: Python :: 3',
 	'License :: OSI Approved :: MIT License',
