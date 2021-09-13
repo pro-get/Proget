@@ -4,34 +4,6 @@
 
 ## A software downloader tool made for cli users
 
-#### NEW: Github repository downloading
-just run
-
-`proget github owner/repo`
-(replace owner by owner and repo by repository name)
-
-What it does?
-
-  So, basically. you give it the command in the console.
-
-  ```
-  proget download sublime_text
-  ```
-
-  by default if no version is given, it just uses the key "latest" and for versions:
-  
-  ```
-  proget download sublime_text(v4)
-  ```
-
-  in this way you pass versions..
-  then it splits the command, 
-
-  `(proget,download,[sublime_text(v4),**args])`
-
-  after that it reads every software name
-  and connect to the web and look for the file from http://proget.whirlpool.repl.co and gets info of the links..
-  then simply it downloads the file and opens it when finished.
 
 Which Operating systems are supported?
   
@@ -41,23 +13,71 @@ What if the software doesn't support my architecture?
   
   If your architecture is not supported then, the file which contains the links gives a negative response by returning a string. and you will be informed about that.
 
-```
+## How to use?
 
+very easy to use!
+
+3 main functions:
+
+### 1. download
+
+just give the command:
+
+ex: `proget download python`
+
+then, it will look into the softwares listed in [proget.whms.repl.co](https://proget.whms.repl.co)
+
+after that, it will download the file.. and open it once installed.
+
+pass on the version like this:
+
+`proget download (v3.8)`
+
+it will download the release `v3.8` of `python`
+
+### 2. Github
+
+simple.. downloads a github repo
+
+ex: `proget github microsoft/terminal`
+
+then it will look, if the repo's main branch is 'main' or 'master'
+then simply, it download the zip and extracts it..
+
+pass on the branch name like this:
+
+`proget github microsoft/terminal:inbox`
+
+it will download the `inbox` branch not the `main` or `master` one..
+
+### 3. get
+
+a simple thing..
+
+just download the file specified..
+
+ex: `proget get https://sabnzbd.org/tests/internetspeed/20MB.bin`
+
+then download the file `https://sabnzbd.org/tests/internetspeed/20MB.bin`
+
+<hr>
 
 Dependencies:
+- pyYAML
+- urllib
+- requests
+- platform
+- terminal-animation
 
-> pyYAML
-
-> urllib
-
-> requests
-
-> platform
-```
+<hr>
 
 changelog:
 ```
 v1:
-  ~ support for github repo download
-  ~ fixed minor bugs from v1.0b4
+ + support for github repo download
+ - fixed minor bugs from v1.0b4
+v2:
+ + better downloading utlity
+ + github repo download with branches
+ + updated to work with proget.whms.repl.co as i changed my username
 ```
