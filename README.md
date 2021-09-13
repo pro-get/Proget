@@ -1,6 +1,9 @@
 # Proget
 
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Downloads](https://pepy.tech/badge/proget/month)](https://pypi.org/project/proget)
+[![GitHub license](https://img.shields.io/github/license/Whirlpool-programmer/proget.svg)](https://github.com/whirlpool-programmer/proget/blob/master/LICENSE)
+[![Size](https://shields.io/github/repo-size/Whirlpool-Programmer/proget)]()
 
 ## A software downloader tool made for cli users
 
@@ -80,4 +83,6 @@ v2:
  + better downloading utlity
  + github repo download with branches
  + updated to work with proget.whms.repl.co as i changed my username
+v2.1:
+ - bugfixes from v2
 ```
