@@ -14,8 +14,8 @@ setup(
 	author_email='whirlpool.programmer@outlook.com',
 	license='MIT License',
 	packages=['proget'],
-	requires=['pyyaml','urllib','requests','platform'],
-	install_requires=['pyyaml','urllib','requests','platform'],
+	requires=['pyyaml','urllib','requests','platform','terminal-animation'],
+	install_requires=['pyyaml','urllib','requests','platform','terminal-animation'],
 	classifiers =[
 	'Programming Language :: Python :: 3',
 	'License :: OSI Approved :: MIT License',
