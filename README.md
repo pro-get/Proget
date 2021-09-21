@@ -87,4 +87,10 @@ v2.1:
  - bugfixes from v2
 v2.5:
  - work with pro-get.github.io
+v2.5.2:
+ - use 'proget -v' (get the version)
+ - use 'proget -m' (get list of maintainers)
+ - use 'proget -a' (get author name)
+ - few "stupid" bug fixed
+ - not known commands throw error
 ```

@@ -1,2 +1,2 @@
 language = "bash"
-run = ""
+run = "python setup.py bdist_wheel && cd dist && python -m twine upload Proget-{}-py3-none-any.whl"
