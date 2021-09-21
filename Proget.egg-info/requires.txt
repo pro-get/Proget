@@ -1,0 +1,4 @@
+pyyaml
+urllib3
+requests
+terminal_animation

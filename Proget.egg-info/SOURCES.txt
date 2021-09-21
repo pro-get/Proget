@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Proget.egg-info/PKG-INFO
+Proget.egg-info/SOURCES.txt
+Proget.egg-info/dependency_links.txt
+Proget.egg-info/entry_points.txt
+Proget.egg-info/requires.txt
+Proget.egg-info/top_level.txt
+proget/__init__.py

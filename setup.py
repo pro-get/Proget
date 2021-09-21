@@ -5,8 +5,8 @@ with open("README.md", "r") as file:
 
 setup(
 	name='Proget',
-	version='2.1',    
-	description='''A software installation tool''',
+	version='2.5',    
+	description='''A software download tool''',
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	url='https://github.com/Whirlpool-Programmer/Proget',
@@ -14,8 +14,8 @@ setup(
 	author_email='whirlpool.programmer@outlook.com',
 	license='MIT License',
 	packages=['proget'],
-	requires=['pyyaml','urllib','requests','platform','terminal-animation'],
-	install_requires=['pyyaml','urllib','requests','platform','terminal-animation'],
+	requires=['pyyaml','urllib3','requests','terminal_animation'],
+	install_requires=['pyyaml','urllib3','requests','terminal_animation'],
 	classifiers =[
 	'Programming Language :: Python :: 3',
 	'License :: OSI Approved :: MIT License',

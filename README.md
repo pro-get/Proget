@@ -82,7 +82,9 @@ v1:
 v2:
  + better downloading utlity
  + github repo download with branches
- + updated to work with proget.whms.repl.co as i changed my username
+ + work with proget.whms.repl.co
 v2.1:
  - bugfixes from v2
+v2.5:
+ - work with pro-get.github.io
 ```
