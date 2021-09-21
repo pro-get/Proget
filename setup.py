@@ -5,7 +5,7 @@ with open("README.md", "r") as file:
 
 setup(
 	name='Proget',
-	version='2.5',    
+	version='2.5.2',    
 	description='''A software download tool''',
 	long_description=long_description,
 	long_description_content_type="text/markdown",

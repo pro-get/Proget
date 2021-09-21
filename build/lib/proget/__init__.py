@@ -83,7 +83,7 @@ def download(names):
 		print("Looking for file links..", end = "\r")
 		try:
 			try:
-				file_info = req.urlopen("https://proget.whms.repl.co/data/{}.yml".format(name_ver_r))
+				file_info = req.urlopen("https://pro-get.github.io/data/{}.yml".format(name_ver_r))
 			except urllib.error.HTTPError:
 				print("cannot find file information of {}".format(name))
 				continue
