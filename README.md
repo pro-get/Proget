@@ -38,6 +38,13 @@ pass on the version like this:
 
 it will download the release `v3.8` of `python`
 
+#### smart skill:
+
+if you don't know which software to download.. then just enter
+`proget download --list` in terminal
+
+you will get a list of all softwares avaliable and when the catalogue was updated..
+
 ### 2. Github
 
 simple.. downloads a github repo
