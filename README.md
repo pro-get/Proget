@@ -28,7 +28,7 @@ just give the command:
 
 ex: `proget download python`
 
-then, it will look into the softwares listed in [proget.whms.repl.co](https://proget.whms.repl.co)
+then, it will look into the softwares listed in [pro-get.github.io](https://pro-get.github.io)
 
 after that, it will download the file.. and open it once installed.
 
