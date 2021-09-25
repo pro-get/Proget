@@ -1,0 +1,5 @@
+pyYAML
+urllib
+requests
+platform
+alive_progress
