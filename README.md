@@ -28,7 +28,7 @@ just give the command:
 
 ex: `proget download python`
 
-then, it will look into the softwares listed in [pro-get.github.io](https://pro-get.github.io)
+then, it will look into the softwares listed in [proget.whms.repl.co](https://proget.whms.repl.co)
 
 after that, it will download the file.. and open it once installed.
 
@@ -36,14 +36,7 @@ pass on the version like this:
 
 `proget download (v3.8)`
 
-it will download the release `v3.8` of `python`
-
-#### smart skill:
-
-if you don't know which software to download.. then just enter
-`proget download --list` in terminal
-
-you will get a list of all softwares avaliable and when the catalogue was updated..
+it will download the version `v3.8` of `python`
 
 ### 2. Github
 
@@ -77,7 +70,7 @@ Dependencies:
 - urllib
 - requests
 - platform
-- terminal-animation
+- alive_progress
 
 <hr>
 
@@ -89,15 +82,13 @@ v1:
 v2:
  + better downloading utlity
  + github repo download with branches
- + work with proget.whms.repl.co
+ + updated to work with proget.whms.repl.co as i changed my username
 v2.1:
  - bugfixes from v2
 v2.5:
- - work with pro-get.github.io
-v2.5.2:
- - use 'proget -v' (get the version)
- - use 'proget -m' (get list of maintainers)
- - use 'proget -a' (get author name)
- - few "stupid" bug fixed
- - not known commands throw error
+ + softwares are downloaded in the current folder
+ + use 'proget download --list' to get the list of softwares
+ + work with pro-get.github.io instead of proget.whms.repl.co
+v2.6:
+ + use alive_progress everywhere for pbars!
 ```
