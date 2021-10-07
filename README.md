@@ -7,15 +7,6 @@
 
 ## A software downloader tool made for cli users
 
-
-Which Operating systems are supported?
-  
-  Only windows is supported
-
-What if the software doesn't support my architecture?
-  
-  If your architecture is not supported then, the file which contains the links gives a negative response by returning a string. and you will be informed about that.
-
 ## How to use?
 
 very easy to use!
@@ -37,6 +28,17 @@ pass on the version like this:
 `proget download (v3.8)`
 
 it will download the version `v3.8` of `python`
+
+QUESTIONS:
+
+
+Which Operating systems are supported?
+  
+\>  Only windows is supported
+
+What if the software doesn't support my architecture?
+  
+\>  If your architecture is not supported then, the file which contains the links gives a negative response by returning a string. and you will be informed about that.
 
 ### 2. Github
 
