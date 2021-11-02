@@ -1,3 +1,0 @@
-[console_scripts]
-proget = proget:main
-
