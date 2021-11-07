@@ -1,6 +1,6 @@
 __version__ = 'v2.6'
-__author__ = 'whirlpool-programmer'
-__maintainers__ = ['whirlpool-programmer','pro-get']
+__author__ = 'whmsft'
+__maintainers__ = ['whmaft','pro-get']
 
 import os
 import sys
