@@ -157,7 +157,7 @@ EXAMPLES:
 		elif "get" in command_split[1].lower():
 			getfile(command_split[2:])
 		else:
-			print('Unknown command {}'.format(" ".join(command_split[2:])))
+			print('Unknown command "{}"'.format(" ".join(command_split[2:])))
 
 if __name__ in "__main__":  
 	main()
