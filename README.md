@@ -92,5 +92,5 @@ v2.5:
  + use 'proget download --list' to get the list of softwares
  + work with pro-get.github.io instead of proget.whms.repl.co
 v2.6:
- + use alive_progress everywhere for pbars!
+ + use alive_progress
 ```
