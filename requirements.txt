@@ -1,4 +1,4 @@
-pyYAML
+pyyaml
 urllib
 requests
 platform
